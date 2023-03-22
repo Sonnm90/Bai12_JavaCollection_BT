@@ -19,8 +19,10 @@ public class Main {
         bst.insert(90);
         bst.insert(20);
         bst.insert(55);
-
-//        bst.postorderTraversal();
+        System.out.println("postOrder");
+        bst.postorderTraversal(bst.root);
+        System.out.println("preOrder");
+        bst.preOrderTraversal(bst.root);
 //        print the BST
         System.out.println("The BST Created with input data(Left-root-right):");
         bst.inorder();
